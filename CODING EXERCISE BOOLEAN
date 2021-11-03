@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class Boolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number1 = 5;
+		int number2 = 10;
+		boolean total;
+		
+		
+		total = number1 < number2; 
+		System.out.print("is number1 smaller than number2: ");
+		System.out.println(total);
+		
+		System.out.println();
+		boolean amIpretty = true;
+		boolean amIbad = false;
+		
+		System.out.print("Am I pretty: ");
+		System.out.println(amIpretty);
+		System.out.print("Am I bad: ");
+		System.out.println(amIbad);
+		
+	}
+
+}
