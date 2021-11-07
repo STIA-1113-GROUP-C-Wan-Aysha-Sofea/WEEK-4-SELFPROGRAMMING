@@ -1,0 +1,24 @@
+package selfProgramming;
+
+public class Fixed {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double randoms = (Math.random()); 
+		//used to generate pseudorandom number 0.0< pn < 1.0
+		System.out.print("Random number is: ");
+		System.out.println(randoms);
+		
+		double euler = (Math.E); 
+		//E is euler number approximately equal to 2.718281828459045.
+		System.out.print("Euler's number is: ");
+		System.out.println(euler);
+		
+		double PI = (Math.PI); 
+		//used to calculate area or volume of circle and cylinder approximately 3.14
+		System.out.print("PI's number is: ");
+		System.out.println(PI);
+		
+	}
+
+}
