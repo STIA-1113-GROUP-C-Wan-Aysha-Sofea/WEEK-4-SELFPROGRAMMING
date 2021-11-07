@@ -1,0 +1,14 @@
+package selfProgramming;
+
+public class SinValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub\
+		
+		double degrees = 45.0;
+		double radians = Math.toRadians(degrees);
+		double sinValue = Math.sin(radians);
+		System.out.println("sin(" + degrees + ") is " + sinValue);
+	}
+
+}
